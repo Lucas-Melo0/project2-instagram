@@ -5,6 +5,7 @@ body {
 .home_page{
     width: 935px;
     margin:0 auto;
+    overflow: hidden;
     
 }
 .header {
@@ -18,7 +19,7 @@ body {
     top:0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 .mobile {
     justify-content: space-around;
@@ -41,7 +42,6 @@ body {
 }
 .logo img {
     border-left: 1px solid #DBDBDB;
-    
 }
 .header ion-icon {
     width: 22px;
@@ -286,12 +286,12 @@ video {
         width: 100%;
     }
     .stories {
-        background: color 0;
+        
         width: 100%;
         margin-left: 0;
         margin-top: 56px;
         margin-bottom: 0px;
-        background-color: 0;
+        
     }
     
     .stories ion-icon {
